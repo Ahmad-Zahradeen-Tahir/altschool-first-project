@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap');
+
+body {
+    background-image: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+.active {
+    background-color: blue;
+}
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  ul li a:hover {
+    background-color: #111;
+  }
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: silver;
+}
+
+input {
+    width: 100%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+input[type=button] {
+    width: 100%;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#equal {
+    background-color: orange;
+}
+
+input[type=button]:hover {
+    -webkit-box-shadow: inset 0px 0px 18px -6px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0px 0px 18px -6px rgba(0,0,0,1);
+    box-shadow: inset 0px 0px 18px -6px rgba(0,0,0,1);
+
+}

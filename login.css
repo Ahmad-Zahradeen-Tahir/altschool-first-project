@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap');
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+    font-family: 'Kanit', sans-serif;
+}
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    z-index: 100;
+  }
+  
+  li {
+    float: left;
+  }
+  
+.active {
+    background-color: blue;
+}
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  ul li a:hover {
+    background-color: #111;
+    text-decoration: none;
+  }
+
+  .row {
+      background-color: whitesmoke;
+      border-radius: 30px;
+      box-shadow: 12px 12px 22px grey;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  img {
+      border-top-left-radius: 30px;
+      border-bottom-left-radius: 30px;
+  }
+
+  .btn1 {
+      border: none;
+      outline: none;
+      height: 50px;
+      width: 100%;
+      background-color: blue;
+      color: white;
+      border-radius: 4px;
+      font-weight: bold;
+      transition: 0.5s;
+  }
+
+  .btn1:hover {
+      background-color: white;
+      border: 1px solid;
+      color: blue;
+      transition: 0.5s;
+  }
